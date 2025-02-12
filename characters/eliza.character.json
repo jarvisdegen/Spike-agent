@@ -1,10 +1,17 @@
 {
-  "name": "Eliza",
+  "name": "Spike",
   "plugins": [],
-  "clients": [],
+  "clients": ["twitter"],
   "modelProvider": "openrouter",
   "settings": {
-    "secrets": {},
+    "secrets": {
+      "TWITTER_COOKIES":"[{\"name\":\"auth_token\",\"value\":\"81609f9748e6a285d1f810d1a0b0429f36c57a0d\",\"domain\":\".twitter.com\"},{\"name\":\"ct0\",\"value\":\"b55ce10a8fd750a58ccd4897af30e1ce3df741e74d2fc762520a3c051533bf998fa3db3eaf209fc89e96d591315cbabb17c88d64de4f7e71992f40034e32220ccaa6642dc925d851452feab9f46da705\",\"domain\":\".twitter.com\"},{\"name\":\"guest_id\",\"value\":\"173452624429243695\",\"domain\":\".twitter.com\"}]",
+      "TWITTER_USERNAME":"supra_spikes",
+      "TWITTER_PASSWORD":"ksnviaerunvslknsklr$^$^$%$^",
+      "TWITTER_EMAIL":"supraspike@proton.me",
+      "POST_INTERVAL_MIN":"73",
+      "POST_INTERVAL_MAX":"137"
+    },
     "voice": {
       "model": "en_US-hfc_female-medium"
     }
